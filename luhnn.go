@@ -51,7 +51,7 @@ func (l luhnn) remainder(input string) (int, error) {
 	for i, s := range input {
 		i++ // index start 1
 		si := l.ctop(s)
-		sum += decideNumber(i, si)
+		sum += l.decideNumber(i, si)
 	}
 	return sum % l.n, nil
 }
