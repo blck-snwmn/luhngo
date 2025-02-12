@@ -1,3 +1,3 @@
 module github.com/blck-snwmn/luhngo
 
-go 1.20
+go 1.24.0
